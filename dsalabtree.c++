@@ -29,7 +29,7 @@ class Node{
         root->right=buildtree(root->right);
     return root;
 }
-
+//doing level order traversal
 void levelordertraversal(Node* root){
             queue<Node*> q;
             q.push(root);
